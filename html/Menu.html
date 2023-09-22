@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style_menu.css" />
+  </head>
+  <body>
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title" id="home">Eat Right Food</h1>
+        <p>Eat Healty, it is good for our health.</p>
+        <a href="#food-menu" class="btn btn-primary">Menu</a>
+      </div>
+    </section>
+    <section id="food">
+      <h2>Types of food</h2>
+      <div class="food-container container">
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img src="../img/starter2.jpg" alt="error" />
+            <div class="img-content">
+              <h3>Starter</h3>
+            </div>
+          </div>
+        </div>
+        <div class="food-type grin">
+          <div class="img-container">
+            <img src="../img/full.jpg" alt="error" />
+            <div class="img-content">
+              <h3>Main-Course</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      </div>
+    </section>
+    <section id="food-menu">
+      <h2 class="food-menu-heading">Food Menu</h2>
+      <div class="food-menu-container container">
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="../img/starter.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Tofia-E-Noor</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img
+              src="../img/paneer1.jpg"
+              alt="error"
+            />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Paneer Tikka Masala</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="../img/paneer2.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Malai Kofta</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="../img/paneer3.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Vegetable Kofta</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="../img/paneer4.jpeg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Manchurian</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="../img/paneer5.jpg" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Cheese Butter Masala</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              quae.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+        <h4>
+        <a href="restaurant.html">Home |</a>
+        <a href="register.html">Registration |</a>
+        <a href="reservation.html">Reservation |</a>
+        <a href="LOGIN.html" id="log">Login</a>
+    </h4>
+    </footer>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("a").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        } 
+      });
+    });
+  </script>
+</html>

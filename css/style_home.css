@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Josefin Sans',sans-serif; 
+    color: white;  
+}
+header{
+    background-color:white;
+    color:white;
+    font-family: cursive;
+    border-image: fill;
+    border-style:hidden;
+    padding: 320px;
+    text-align: right;
+    font-size: 100px;
+    background-image: url("../img/image\(15\).jpg");
+    left: 0;
+    top: 0;
+    width: 620px;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    background-color:black;
+    padding: 10px;
+    color: black;
+    display:flexbox;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+nav .item a{
+    color: white;
+    text-decoration: none;
+    margin: 75px;
+    list-style-type: none;
+    padding: 0px;
+    font-weight: bold;
+}
+
+nav .item a:hover{
+        color: #ea1538;
+}
+
+main{
+    background-color: black;
+    height:350px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main>h1{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+}
+  .button-27:hover {
+    background-color: #FFFFFF;
+    color:#000000;
+    transform: translateY(-2px);
+  }
+section{
+    background-color: rgba(164, 166, 163, 0.3);
+}
+
+section .happening video{
+    margin-left:240px;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+section .Reservation{
+    background-color: black;
+    height:350px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section .Reservation>h1{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section img{
+    width:206px;
+    height: 150px;
+}
+section .images{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+section img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    padding: 4px;
+    background-color: black;
+    color:white;
+    border-top-style:double;
+}
+
+footer>form>h3{
+    color:black;
+}
+
+footer>form>h6{
+    color: rgb(148, 146, 146);
+    font-family: 'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', 'sans-serif';
+}
