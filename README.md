@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/dhruvpatel848/Restro.git`
 2. Navigate to the project directory.
-3. Open `index.html` in your web browser.
+3. Open `home.html` in your web browser.
 
 ## Usage
 
